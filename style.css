@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #24303C;
+}
+.btn .btn1{
+    width:350px;
+    height: 70px;
+    color: white;
+    background-color: #44535A;
+    font-size: 24px;
+    font-weight: bold;
+}
+.btn .btn2{
+    width:350px;
+    height: 70px; 
+    color: white;
+    background-color: #44535A;
+    font-size: 24px;
+    font-weight: bold;
+}
+.btn{
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn :hover{
+    background-color: #1AB188;
+}
+.title{
+ font-size: 30px;
+ font-weight: bolder;
+ text-align: center;
+ padding-top: 30px;
+ color: white;
+}
+.name input{
+  width: 340px;
+  height: 50px; 
+  background-color: transparent;
+  border: 2px solid #7E8A96; 
+  padding-left: 15px;
+  color: white;
+}
+.name{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.email1 input{
+    width: 700px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #7E8A96;
+    padding-left: 15px;
+    color: white;
+}
+.email1{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.password input{
+    width: 700px;
+    height: 50px; 
+    background-color: transparent;
+    border: 2px solid #7E8A96;
+    padding-left: 15px;
+    color: white;
+}
+.password {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn3 button{
+    width: 700px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #1AB188;
+}
+.btn3{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
